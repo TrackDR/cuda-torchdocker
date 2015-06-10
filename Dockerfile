@@ -2,7 +2,6 @@
 # modified kaixhin/cuda-torch
 
 FROM kaixhin/cuda
-MAINTAINER Kai Arulkumaran <design@kaixhin.com>
 
 # Install curl and dependencies for iTorch
 RUN apt-get update && apt-get install -y \
